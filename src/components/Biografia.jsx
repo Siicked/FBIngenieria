@@ -1,5 +1,5 @@
 import React from 'react'
-import nashe from "../assets/nashe.jpeg"
+import nashe from "/nashe.jpeg"
 
 const Biografia = () => {
   return (

@@ -7,14 +7,14 @@ import './Ministlye.css'
 
 const Images = () => {
   const Slides = [{
-    src: './public/imagen1234.jpg',
+    src: '/imagen1234.jpg',
   },
   {
-    src: './public/foto.jpeg',
+    src: '/foto.jpeg',
   },
 
   {
-    src: './public/nashe.jpeg',
+    src: '/nashe.jpeg',
   },
   ]
 
