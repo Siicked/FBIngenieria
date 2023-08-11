@@ -1,5 +1,4 @@
 import React from 'react'
-import fbfb from '../assets/fbfb.png'
 import {RiWhatsappFill, RiInstagramFill, RiFacebookCircleFill, RiMailFill} from 'react-icons/ri'
 import { Link } from 'react-router-dom'
 const Footer = () => {
