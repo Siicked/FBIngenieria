@@ -7,7 +7,7 @@ import Biografia from './components/Biografia';
 import Marcas from './components/Marcas';
 import Presupuesto from './components/Presupuesto';
 import Footer from './components/Footer';
-import MiniFooter from './components/minifooter';
+import MiniFooter from './components/MiniFooter';
 
 
 
