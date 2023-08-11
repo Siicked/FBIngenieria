@@ -1,0 +1,22 @@
+import React from 'react'
+import biografia from '../assets/biografia.jpg'
+import nashe from "../assets/nashe.jpeg"
+
+const Biografia = () => {
+  return (
+    <div className='w-full   xl:h-[30vw]  pt-16 xl:text-center text-justify  '>
+        <img className='w-full h-[120vw] xl:h-full brightness-50 contrast-50 drop-shadow-sm grayscale ' src={nashe} alt="" />
+        <div className=' xl:-translate-y-[22vw] -translate-y-[90vw] text-center tracking-widest '>
+        <h1 className='text-[#ffffff] xl:text-[45px] font-[Exo] font-medium text-center text-[30px] px-10 '>FB Ingeniería y Electricidad</h1>
+        <p className='text-[#ffffff] xl:text-[20px] font-[exo] font-extrabold pt-5 text-center  text-[18px] px-10'>Somos una empresa que se especializa en instalaciones eléctricas <br /> y servicios de ingeniería, con una garantía de calidad para asegurar  <br />la comodidad de nuestros clientes. </p>
+        </div>
+        <div className='xl:-translate-y-[21vw] xl:pt-2 text-center -translate-y-[80vw] px-10  tracking-widest'>
+            <p className='text-[#ffffff] xl:text-[20px] font-[exo] font-extrabold text-center px-10 max-sm:hidden'>Contamos con un depósito seguro de nuestros productos, personal capacitado, <br />diversos vehículos para trabajar en tu domicilio, años de experiencia <br /> y la mejor atención a tus necesidades.</p>
+
+            
+        </div>
+    </div>
+  )
+}
+
+export default Biografia
