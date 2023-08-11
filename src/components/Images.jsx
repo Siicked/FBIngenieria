@@ -7,14 +7,14 @@ import './Ministlye.css'
 
 const Images = () => {
   const Slides = [{
-    url: './src/assets/imagen1234.jpg',
+    src: './public/imagen1234.jpg',
   },
   {
-    url: './src/assets/xddd.jpg',
+    src: './public/foto.jpeg',
   },
 
   {
-    url: './src/assets/foto.jpeg',
+    src: './public/nashe.jpeg',
   },
   ]
 
@@ -38,7 +38,7 @@ const Images = () => {
 
   return (
     <div className='w-full h-[750px] xl:w-full relative'>
-      <div style={{backgroundImage: `url(${Slides[currentIndex].url})`}} className='w-full flex h-full relative bg-center bg-cover transition-all hover:saturate-100  ease-linear  duration-1000  drop-shadow '>
+      <div style={{backgroundImage: `url(${Slides[currentIndex].src})`}} className='w-full flex h-full relative bg-center bg-cover transition-all hover:saturate-100  ease-linear  duration-1000  drop-shadow '>
     </div>
     <div className='absolute -translate-y-96 duration-300 transition ease-in-out hover:scale-125  left-4 font-extrabold text-9xl text-red-700 cursor-pointer'>
       <FaAngleLeft onClick={prevSlide} size={65} />
