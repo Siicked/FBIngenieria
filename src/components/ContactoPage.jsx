@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser'
 import {FaHome, FaPhone, FaEnvelope} from 'react-icons/fa'
 import { Formik } from 'formik'
 import { useState } from 'react'
+import biografia from '/biografia.jpg'
 
 emailjs.init('user__q59ep2z4MrfeVpCp');
 
@@ -41,14 +42,14 @@ const sendEmail = (e) => {
         <p className='font-[exo] text-[15px] pt-4 text-[#7A7A7A]'>Whatsapp</p>
         <p className='font-[exo] text-[15px] pt-1 text-[#FF4141]'>+54 (3498) 521587</p>
       </div>
-      <div className='grid justify-items-center pt-4 mb-16 xl:col-span-1'>
+      <div className='grid justify-items-center pt-4 mb-16 xl:col-span-1  '>
         <FaEnvelope className='text-[70px] text-red-500' />
         <h1 className='text-center text-[#7A7A7A] text-[21px] font-[exo] pt-6'>ESCRIBINOS</h1>
         <p className='text-center text-[#7A7A7A] text-[15px] font-[exo] tracking-wide pt-1 px-4'>Estamos aquí para ayudarte <br /> con cualquier consulta sobre <br /> productos, stock, entregas y más.  <br />¡Contáctanos!</p>
         <a target='_blank' href="mailto:fbingeniriasj@gmail.com"><p className='font-[exo] font-extrabold text-[15px] text-[#FF4141] pt-6'>fbingeniriasj@gmail.com</p></a>
       </div>
       </div>
-      <div className='bg-[url(./src/assets/nashe.jpeg)] w-full h-full bg-repeat-x xl:grid xl:grid-cols-1 '>
+      <div className='bg-[url(/foto.jpeg)] w-full h-full bg-repeat-x xl:grid xl:grid-cols-1 '>
         <div className='bg-[#ffffffCf] h-full  px-10  justify-items-center '>
         <h1 className='text-[#FF4141] text-center text-[40px] font-[exo] pt-4'>ESCRIBINOS</h1>
         <p className='text-center text-[#494949] text-[16px] font-[exo] pt-6'>Mediante este canal, podrás pedir una atención detallada para tus necesidades. <br />Completa el formulario con tus datos y te contactaremos pronto para  <br />brindarte la información que buscas.</p>
