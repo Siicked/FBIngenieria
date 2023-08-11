@@ -1,5 +1,4 @@
 import React from 'react'
-import {BsFilePerson} from 'react-icons/Bs'
 
 const MiniFooter = () => {0
   return (

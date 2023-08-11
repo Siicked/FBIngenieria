@@ -3,7 +3,6 @@ import emailjs from '@emailjs/browser'
 import {FaHome, FaPhone, FaEnvelope} from 'react-icons/fa'
 import { Formik } from 'formik'
 import { useState } from 'react'
-import biografia from '../assets/biografia.jpg'
 
 emailjs.init('user__q59ep2z4MrfeVpCp');
 

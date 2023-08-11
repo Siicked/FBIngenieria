@@ -1,13 +1,4 @@
 import React from 'react'
-import pdf01 from '../assets/pdf01.png'
-import {FiMail, FiFacebook, FiInstagram} from 'react-icons/fi'
-import {AiOutlineWhatsApp} from 'react-icons/ai'
-import {RiWhatsappFill} from 'react-icons/ri'
-import imagencontent from '../assets/imagencontent.jpeg'
-import content2 from '../assets/content2.jpeg'
-import pintado from '../assets/pintado.jpeg'
-import techitonashe from '../assets/techito nashe.png'
-import pueslatocas from '../assets/pueslatocas.png'
 import XDLOLXD from '../assets/XDLOLDX.jpg'
 
 const Content = () => {
