@@ -22,14 +22,14 @@ const ServiciosPage = () => {
     count2++;
     document.querySelector("#numero2").innerHTML = 
     count2;
-    if(count2 === 60){
+    if(count2 === 50){
       clearInterval(clients)
     }}
     function trabajosDone() {
       count3++;
       document.querySelector("#numero3").innerHTML = 
       count3;
-      if(count3 === 500){
+      if(count3 === 200){
         clearInterval(trabajos)
       }}
   return (
@@ -54,7 +54,7 @@ const ServiciosPage = () => {
           <p className='text-center font-[exo] text-[#545454] tracking-wide pt-6 xl:pt-0'>Con una experiencia consolidada en el sector de la ingeniería y la electricidad, nos mantenemos actualizados para ofrecer siempre el mejor servicio.</p>
         </div>
         <div className='grid justify-items-center px-10'>
-          <h1 id='numero2' className='text-[70px] font-[exo] text-[#FF4141]'>+30</h1>
+          <h1 id='numero2' className='text-[70px] font-[exo] text-[#FF4141]'>30</h1>
           <p className='text-[20px] font-[exo]'>Marcas</p>
           <p className='text-center font-[exo] text-[#545454] tracking-wide pt-6 xl:pt-0'>Nuestra clientela deposita su confianza en nosotros al proveernos de sus productos, lo que nos impulsa a mantener un extenso catálogo de insumos.</p>
         </div>

@@ -50,8 +50,8 @@ const [currentIndex, setCurrentIndex] = useState(0);
   return (
     <div className='h-full xl:h-full w-full text-center grid-cols-1  '>
       <div className='-translate-y-[130px] text-center xl:translate-y-12 justify-center  '>
-        <span className='text-[45px] font-[exo]'>Nuestras</span><span className='text-[45px] font-[exo] text-red-600 pl-2 '>Marcas</span>
-        <p className='text-[16px] font-[exo] text-center px-10 text-[#434242] tracking-widest'>Representamos a destacadas marcas en el mercado, ofreciendo un amplio y variado inventario de artículos <br /> proporcionándote opciones cuidadosamente seleccionadas para satisfacer tus necesidades únicas.</p>
+        <span className='xl:text-[45px] text-[30px] font-[exo]'>Nuestras</span><span className='xl:text-[45px] text-[30px] font-[exo] text-red-600 pl-2 '>Marcas</span>
+        <p className='text-[18px] font-[exo] text-center px-10 text-[#434242] tracking-widest'>Representamos a destacadas marcas en el mercado, ofreciendo un amplio y variado inventario de artículos <br /> proporcionándote opciones cuidadosamente seleccionadas para satisfacer tus necesidades únicas.</p>
   <div className='  justify-center xl:gap-x-44 text-center mt-12 h-[50px] w-full grid grid-cols-5 justify-items-center items-center xl:flex'>
     <img className='xl:w-[150px] xl:h-[100px] ' src={cobrhil} alt="" />
     <img className='xl:w-[100px] xl:h-[80px]' src={Dahua} alt="" />

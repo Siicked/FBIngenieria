@@ -10,6 +10,7 @@ const Content = () => {
             </div>
             <p className='text-[18px] font-[exo]   pt-4 text-red-500 items-center flex justify-center text-left xl:text-left px-16 xl:px-4 tracking-wide'>Nuestro stock prioriza las marcas líderes del mercado, asegurando la mayor calidad a nuestros clientes tanto en productos como en servicios.</p>
             <p className='text-[18px] font-[exo] mt-4 pt-3  tracking-wide  text-left xl:text-left px-16 xl:px-4 '>Realizamos trabajos varios, como instalación de cámaras y alarmas, instalaciones eléctricas, trabajos de refrigeración, diseño y pintura, colocación de durlock, trabajos de plomería y albañilería, poda y soluciones de gas.</p>
+            <p className='text-[18px] font-[exo]   pt-4 text-red-500 items-center flex justify-center text-left xl:text-left px-16 xl:px-4 tracking-wide'>Puedes solicitar nuestros productos a través de nuestras redes o vía e-mail.</p>
     
 
             

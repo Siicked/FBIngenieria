@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <div className='bg-[#1a1b27] grid grid-cols-1 xl:grid-cols-5 xl:pt-2 pt-12 gap-9 text-white w-full h-full  items-center '>
-        <div className='col-start-1 xl:col-start-2  xl:pt-2   '>
+        <div className='col-start-1 xl:col-start-2  xl:pt-2 mx-10  '>
         <h1 className='text-[30px] text-white font-[exo] text-center'>FB Ingenieria</h1>
-        <p className='font-[exo] text-[15px] text-center  -tracking-tighter text-[#ffffff] pt-4 '>Nos destacamos como una empresa con una <br />sólida trayectoria en trabajos de ingeniería, <br />electricidad y una variedad de otros servicios. <br />Estamos ubicados en Bv. Pellegrini 3375, <br />San Justo, Santa Fe, Argentina. </p>
+        <p className='font-[exo] text-[15px] text-center  -tracking-tighter text-[#ffffff] pt-4 '>Nos destacamos como una empresa con una sólida trayectoria en trabajos de ingeniería, electricidad y una variedad de otros servicios. Estamos ubicados en Bv. Pellegrini 3375, San Justo, Santa Fe, Argentina. </p>
         </div>
         <div className='col-start-1 text-center xl:col-start-3 xl:mt-0  '>
           <h1 className='text-[30px] text-white font-[exo]  '>Nuestra empresa</h1>
@@ -19,7 +19,7 @@ const Footer = () => {
         <div className='col-start-1 xl:pb-12 xl:col-start-4 text-center xl:mt-20    '>
           <h1 className='text-[30px] text-white font-[exo] text-center '>Nuestras redes</h1>
           <p className='font-[exo] text-[15px]  -tracking-tighter text-center pt-6 xl:pt-3  '>Contáctanos directamente o  <br />mantente informado sobre <br />nuestras últimas actualizaciones.</p>
-          <div className='flex xl:justify-evenly justify-center pb-6 pt-8 '>
+          <div className='xl:flex xl:justify-evenly justify-center pb-6 pt-8 grid grid-cols-1 place-items-center'>
           <a target='_blank' href="https://wa.me/3498444508?text=Hola !"><RiWhatsappFill className='h-[50px] w-[100px] cursor-pointer hover:text-red-500 hover:scale-110 ' /></a>
           <a target='_blank' href="https://www.instagram.com/fb.ingenieria/"><RiInstagramFill className='h-[50px] w-[100px] cursor-pointer hover:text-red-500 hover:scale-110'/></a>
           <a target='_blank' href="https://www.facebook.com/people/FB-Ingenieria-San-Justo-SF/100063824280776/?paipv=0&eav=AfYiJuNzHLFxGYkiGSGiW7A7OQQ4RlJkr-8d6xabpwxnhk1EmeEtYNlyGxU9Bo12JKw&_rdr "><RiFacebookCircleFill className='h-[50px] w-[100px] cursor-pointer hover:text-red-500 hover:scale-110' /></a>

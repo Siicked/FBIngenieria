@@ -37,7 +37,7 @@ const Images = () => {
   };
 
   return (
-    <div className='w-full h-[750px] xl:w-full relative'>
+    <div className='xl:w-full  h-[750px]  relative'>
       <div style={{backgroundImage: `url(${Slides[currentIndex].src})`}} className='w-full flex h-full relative bg-center bg-cover transition-all hover:saturate-100  ease-linear  duration-1000  drop-shadow '>
     </div>
     <div className='absolute -translate-y-96 duration-300 transition ease-in-out hover:scale-125  left-4 font-extrabold text-9xl text-red-700 cursor-pointer'>
