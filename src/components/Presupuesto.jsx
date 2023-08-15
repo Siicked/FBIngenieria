@@ -6,8 +6,8 @@ const Presupuesto = () => {
         <div className='  pl-6 pt-6 xl:pt-2 gap-x-3 xl:text-left text-left  col-start-2 col-span-2'>
             <span className='font-[exo] xl:text-[45px] text-[35px] '>Solicita tu </span><span className='font-[exo] xl:text-[45px] text-[35px] text-red-600'>Presupuesto</span>
             <p className='font-[exo] text-[#666666] font-medium text-left xl:text-left'>A través de esta vía, puedes requerir una estimación completa acorde a tus necesidades.
-            <br />Nuestro Sector de admninistrativo se pondrá en contacto contigo <br />en el menor tiempo posible para suministrarte
-<br />los datos que necesitas.</p>
+            <br />Nuestro Sector admninistrativo se pondrá en contacto contigo <br />en el menor tiempo posible para suministrarte
+<br />todo lo que necesitas.</p>
             <div className='xl:flex xl:justify-stretch grid grid-cols-1 gap-2 pt-12 '>
             <span className='font-[exo] text-[14px] text-[#EC1C24] hover:text-[black] cursor-pointer'><a target='_blank' href="mailto:fbingeniriasj@gmail.com">fbingeniriasj@gmail.com</a></span>
             <span className='text-[#666666] text-[14px]'>///</span><span className='font-[exo] text-[14px]   '>(3498)-444508</span>

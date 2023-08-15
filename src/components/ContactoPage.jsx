@@ -21,7 +21,7 @@ const [formularioEnviado, cambiarFormularioEnviado] = useState(false)
       </div>
       <div className='grid justify-items-center pt-4 xl:col-span-1 h-full'>
         <FaPhone className='text-[70px] text-red-500' />
-        <h1 className='text-[#777777] text-[21px] font-[exo] font-light pt-6'>LLAMANOS</h1>
+        <h2 className='text-[#777777] text-[21px] font-[exo] font-light pt-6'>LLAMANOS</h2>
         <p className='text-center text-[#7A7A7A] text-[15px] font-[exo] tracking-wide  pt-6'>¡Nuestro equipo administrativo está <br />listo para atender tus peticiones con gusto!</p>
         <p className='font-[exo] text-[15px] pt-4 text-[#7A7A7A]'>Administración y Ventas</p>
         <p className='font-[exo] text-[15px] pt-1 text-[#FF4141]'>+54 (3498) 521587</p>
@@ -30,7 +30,7 @@ const [formularioEnviado, cambiarFormularioEnviado] = useState(false)
       </div>
       <div className='grid justify-items-center pt-4 mb-16 xl:col-span-1  '>
         <FaEnvelope className='text-[70px] text-red-500' />
-        <h1 className='text-center text-[#7A7A7A] text-[21px] font-[exo] pt-6'>ESCRIBINOS</h1>
+        <h3 className='text-center text-[#7A7A7A] text-[21px] font-[exo] pt-6'>ESCRIBINOS</h3>
         <p className='text-center text-[#7A7A7A] text-[15px] font-[exo] tracking-wide pt-1 px-4'>Estamos aquí para ayudarte <br /> con cualquier consulta sobre <br /> productos, stock, entregas y más.  <br />¡Contáctanos!</p>
         <a target='_blank' href="mailto:fbingenieriasj@gmail.com"><p className='font-[exo] font-extrabold text-[15px] text-[#FF4141] pt-6 hover:text-black'>fbingenieriasj@gmail.com</p></a>
       </div>

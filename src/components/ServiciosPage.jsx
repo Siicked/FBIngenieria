@@ -36,7 +36,7 @@ const ServiciosPage = () => {
     <div>
       <div className='grid grid-cols-1 xl:grid-cols-2 '>
       <div className='grid col-span-1  '>
-        <img className='border border-spacing-3 w-full border-slate-900   ' src={servicios} alt="" />
+        <img className='border border-spacing-3 w-full border-slate-900   ' src={servicios} alt="Servicios" />
       </div>
         <div className='bg-[#2A2B33] grid justify-center  py-28 hover:bg-red-600 ease-in duration-300 col-span-1 content-center'>
           <h1 className='text-[35px] tracking-wider font-[exo] xl:text-[60px] text-[#ffffff] text-center'>Servicios y Obras</h1>
