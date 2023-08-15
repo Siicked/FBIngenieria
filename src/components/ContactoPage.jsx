@@ -10,8 +10,8 @@ const [formularioEnviado, cambiarFormularioEnviado] = useState(false)
 
   return (
     <div>
-    <div className='grid grid-cols-1 xl:grid-cols-5 xl:mt-28 xl:mb-28   gap-4 mt-6 px-16 h-full'>
-      <div className='grid xl:col-start-2 justify-items-center h-full'>
+    <div className='grid grid-cols-1 xl:grid-cols-5 xl:mt-28 xl:mb-28 justify-items-center  gap-4 mt-6 px-16 h-full'>
+      <div className='grid xl:col-start-2 justify-items-center h-full '>
         <FaHome className='text-[70px] text-red-500 ' />
         <h1 className='text-[#777777] text-[21px] font-[exo] font-light pt-6'>NOS ENCONTRAMOS EN</h1>
         <p className='text-center text-[#7A7A7A] text-[15px] font-[exo] pt-6'>Atención al cliente</p>
